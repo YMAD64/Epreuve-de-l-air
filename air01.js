@@ -52,4 +52,3 @@ if(args.length < 1){
 // 4 RESOLUTION
 
 else console.log(split_en_fonction(arg1, arg2))
-
