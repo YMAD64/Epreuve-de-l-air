@@ -1,22 +1,23 @@
 const args = process.argv.slice(2)
 
-let arg2 = (args[args.length-1]);
-args.pop()
-let arg1 = args
 
-let tab = ['coucou', 'cest', 'moi']
-let sep = ['-']
-
-function concat(array_de_strings, séparateur){
-    
-    let string = ""
-    
-    for (let i = 0 ; i < array_de_strings.length ; i++){        
-        if(i == array_de_strings.length-1){
-            string = `${string}${array_de_strings[i]}`
+function single(array){
+    single = []
+    for(let i = 0 ; i < array.length ; i++){
+        for(let y = 0 ; y < array.length ; y++){
+            if((array[y] == array[i]) && (i != y)){
+                array[y] = "Pair"
+                array[i] = "Pair"
+            } 
         }
-        else string = `${string}${array_de_strings[i]}${séparateur}`    
-    }return string
+    }
+    for(let i = 0 ; i < array.length ; i++){
+        if(array[i] != "Pair"){
+            single.push(array[i])
+        }
+    }return single
+    
 }
-console.log(concat(tab, sep));
 
+
+console.log(single(args).join(' '))

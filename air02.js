@@ -2,8 +2,7 @@
 
 const args = process.argv.slice(2)
 
-let arg2 = (args[args.length-1]);
-args.pop()
+let arg2 = args.pop()
 let arg1 = args
 
 // 2 FONCTIONS
