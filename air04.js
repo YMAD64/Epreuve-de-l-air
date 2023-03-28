@@ -1,9 +1,8 @@
+// 1 ARGUMENTS ET VARIABLES
+
 const args = process.argv.slice(2).join(' ')
 
-
-
-
-
+// 2 FONCTIONS
 
 function delCharAdj(string,){
     let newString = ""
@@ -19,8 +18,12 @@ function delCharAdj(string,){
     } return newString
 }
 
-console.log(delCharAdj(args));
+// 3 GESTION D'ERREUR
 
+if(args.length < 1){
+    console.log("error");
+}
 
+// 4 RESOLUTION
 
-
+else console.log(delCharAdj(args));

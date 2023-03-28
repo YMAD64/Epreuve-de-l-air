@@ -1,26 +1,23 @@
 // 1 ARGUMENTS ET VARIABLES
 
-const args = process.argv.slice(2)
-
+const args = process.argv.slice(2).join(' ')
 
 // 2 FONCTIONS
 
 
-function single(array){
-    let single = []
-    for(let i = 0 ; i < array.length ; i++){
-        for(let y = 0 ; y < array.length ; y++){
-            if((array[y] == array[i]) && (i != y)){
-                array[y] = "Pair"
-                array[i] = "Pair"
-            } 
+
+function delCharAdj(string,){
+    let newString = ""
+    for(let i = 0 ; i < string.length ; i++){
+        newString = `${newString}${string[i]}`
+        for(let y = 0 ; y < string.length ; y++){
+            if(string[i] == string[i+1])
+            i++
+            else if((string[i] == string[i+1]) && (string[i] == string[i+y])){
+            i++
+            }    
         }
-    }
-    for(let i = 0 ; i < array.length ; i++){
-        if(array[i] != "Pair"){
-            single.push(array[i])
-        }
-    }return single
+    } return newString
 }
 
 
@@ -32,5 +29,5 @@ if(args.length < 1){
 
 // 4 RESOLUTION
 
-else console.log(single(args).join(' '))
+else console.log(delCharAdj(args));
 
