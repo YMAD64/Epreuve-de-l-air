@@ -1,26 +1,29 @@
-const args = process.argv.slice(2).join(' ')
+const args = process.argv.slice(2)
+let newargs = []
+function getNumber(array, newArray){
+
+
+    for (let i=0 ; i<array.length ; i++){
+        newArray.push(parseInt(array[i]))
+    }
+
+}
+ 
+getNumber(args, newargs)
 
 
 
+let arg2 = newargs.pop()
+let arg1 = newargs
 
 
-
-function delCharAdj(string,){
-    let newString = ""
-    for(let i = 0 ; i < string.length ; i++){
-        newString = `${newString}${string[i]}`
-        for(let y = 0 ; y < string.length ; y++){
-            if(string[i] == string[i+1])
-            i++
-            else if((string[i] == string[i+1]) && (string[i] == string[i+y])){
-            i++
-            }    
-        }
-    } return newString
+function add(array, number){
+    newArray = []
+    for(let i = 0 ; i < array.length ; i++){
+        newArray.push(array[i]+number)
+    }return newArray
 }
 
-console.log(delCharAdj(args));
-
-
+console.log(add(arg1, arg2).join(' '));
 
 
