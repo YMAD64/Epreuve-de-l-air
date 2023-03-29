@@ -40,4 +40,3 @@ if((args.length < 2) || (argsFalse(args))){
 // 4 RESOLUTION
 
 else console.log(pass_sanitaire(arg1,arg2).join(', '))
-
