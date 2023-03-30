@@ -67,5 +67,3 @@ else if ((tabVide(arg1)==false) && argsFalse(args)==false){
 
     console.log(sorted_insert(arg1,arg2).join(' '));
 }
-
-
