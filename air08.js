@@ -80,4 +80,3 @@ else if ((tabVide(arg1)==false) && (argsFalse(arg1)==false) && (argsFalse(arg2)=
     console.log(sorted_fusion(arg1,arg2).join(' '));
 }
 
-
