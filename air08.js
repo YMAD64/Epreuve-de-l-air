@@ -77,6 +77,9 @@ if((tabVide(args)) || (argsFalse(arg1)) || (argsFalse(arg2)) || (args.includes('
 
 else if ((tabVide(arg1)==false) && (argsFalse(arg1)==false) && (argsFalse(arg2)==false)){
 
-    console.log(sorted_fusion(arg1,arg2).join(' '));
+    console.log(sorted_fusion([1, 2], ).join(' '));
 }
 
+
+
+console.log()

@@ -21,6 +21,3 @@ if(args.length < 2){
 // 4 RESOLUTION
 
 else console.log(ma_rotation(args).join(', '));
-
-
-
