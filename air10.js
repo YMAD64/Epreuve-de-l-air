@@ -9,5 +9,3 @@ fs.readFile(nomFichier, 'utf8', function(err, data){
     else 
     console.log(data);
 })
-
-
