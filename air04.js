@@ -27,3 +27,20 @@ if(args.length < 1){
 // 4 RESOLUTION
 
 else console.log(delCharAdj(args));
+
+////////////////////////////////////////////////
+//06/11/23//////////////////////////////////////
+
+// const args = process.argv.slice(2).join('')
+
+// function only_one(string){
+//     let newstring = []
+//     for (let i=0 ; i<string.length ; i++){
+//         if (string[i]!=string[i-1]){
+//             newstring.push(string[i])
+//         }
+        
+//     } return newstring.join('')
+// }
+
+// console.log(only_one(args));

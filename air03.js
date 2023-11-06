@@ -34,3 +34,35 @@ if(args.length < 1){
 
 else console.log(single(args).join(' '))
 
+///////////////////////////////////////////
+//06/11/23/////////////////////////////////
+
+
+// const args = process.argv.slice(2)
+
+// //console.log(args);
+
+// function pair_impair(string){
+    
+//     let impair = []
+
+//     for(let i=0 ; i<string.length ; i++){
+//         for (let j=0 ; j<string.length ; j++){
+//             if ((string[i]==string[j]) && (i != j)){
+//                 string[j] = "pair"
+//                 string[i] = "pair"
+//             }
+
+//         }
+//     }
+//         for(let i=0 ; i<string.length ; i++){
+//             if (string[i] != "pair"){
+//                 impair.push(string[i])
+//             }
+//         }
+
+//     return impair
+// }
+
+// console.log(pair_impair(args).join());
+
