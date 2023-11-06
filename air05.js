@@ -41,3 +41,34 @@ if((args.length < 2) || (argsFalse(args))){
 
 else console.log(add(arg1, arg2).join(' '));
 
+
+//////////////////////////////////////////////////
+//06/11/23////////////////////////////////////////
+
+// const args = process.argv.slice(2)
+
+// let args_number = []
+
+// function get_number(array,new_array){
+//     for (let i=0 ; i<array.length ; i++){
+//         new_array.push(parseInt(array[i]))
+//     } return new_array
+// }
+
+// get_number(args, args_number)
+
+// let arg2 = args_number.pop()
+// let arg1 = args_number
+
+// // console.log(arg1);
+// // console.log(arg2);
+
+// function add(array, number){
+//     let add_array = []
+//     for (let i=0 ; i<array.length ; i++){
+//         add_array.push(array[i]+number)
+//     } return add_array
+// }
+
+// console.log(add(arg1, arg2));
+
