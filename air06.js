@@ -40,3 +40,30 @@ if((args.length < 2) || (argsFalse(args))){
 // 4 RESOLUTION
 
 else console.log(pass_sanitaire(arg1,arg2).join(', '))
+
+////////////////////////////////////////////////////////////
+//07/11/23//////////////////////////////////////////////////
+
+// const args = process.argv.slice(2)
+
+// let arg2 = args.pop()
+// let arg1 = args
+
+// console.log(arg1);
+// console.log(arg2);
+
+// function pass_letter(array_de_string, string){
+//     let new_array = []
+//     for (let i=0 ; i<array_de_string.length ; i++){
+//         if ((array_de_string[i].toLowerCase()).includes(string.toLowerCase())){
+//             array_de_string[i] = "refoulé"
+//         }       
+//     }
+//     for (let i=0 ; i<array_de_string.length ; i++){
+//         if (array_de_string[i]!="refoulé"){
+//             new_array.push(array_de_string[i])
+//         }
+//     } return new_array
+// }
+
+// console.log(pass_letter(arg1,arg2));

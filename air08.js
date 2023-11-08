@@ -83,3 +83,48 @@ else if ((tabVide(arg1)==false) && (argsFalse(arg1)==false) && (argsFalse(arg2)=
 
 
 console.log()
+
+
+//////////////////////////////////////////////////
+//08/11/23////////////////////////////////////////
+
+// const args = process.argv.slice(2)
+
+// function def_args(array){
+//     arg1 = []
+//     arg2 = []
+//     let stop = 0
+
+//     for(let i=0 ; i<array.length ; i++){
+//         arg1.push(parseInt(array[i]))
+//         if(array[i+1] == "fusion"){
+//             stop = i+1
+//             break
+//         }
+//     }
+//     for (let i = stop+1 ; i<array.length ; i++){
+//         arg2.push(parseInt(array[i]))
+//     } return arg1,arg2
+// }
+    
+// def_args(args)
+
+// function sorted_fusion(array1, array2){
+//     new_array = []
+//     for(let i=0 ; i<array1.length ; i++){
+//         new_array.push(array1[i])
+//     }
+//     for (let i=0 ; i<array2.length ; i++){
+//         new_array.push(array2[i])
+//     }
+//     for (let i=0 ; i<new_array.length ; i++){
+//         for (let j=0 ; j<new_array.length ; j++){
+//             if (new_array[j]>new_array[j+1]){
+//                 [new_array[j],new_array[j+1]]=[new_array[j+1],new_array[j]]
+//             }
+//         }
+//     } return new_array
+    
+// }
+
+// console.log(sorted_fusion(arg1,arg2).join(' '));

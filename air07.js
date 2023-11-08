@@ -67,3 +67,28 @@ else if ((tabVide(arg1)==false) && argsFalse(args)==false){
 
     console.log(sorted_insert(arg1,arg2).join(' '));
 }
+
+
+////////////////////////////////////////////////////////////////////
+//07/11/23//////////////////////////////////////////////////////////
+
+// const args = process.argv.slice(2)
+
+// let arg2 = args.pop()
+// let arg1 = args
+
+// console.log(arg1);
+// console.log(arg2);
+
+// function sorted_insert(array, new_element){
+//     array.push(new_element)
+//     for (let i=0 ; i<array.length ; i++){
+//         for (let j=0 ; j<array.length ; j++){
+//             if(parseInt(array[j])>parseInt(array[j+1])){
+//             [array[j],array[j+1]]=[array[j+1],array[j]]
+//             }
+//         }
+//     } return array
+// }
+
+// console.log(sorted_insert(arg1,arg2).join(' '));
