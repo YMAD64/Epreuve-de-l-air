@@ -21,3 +21,19 @@ if(args.length < 2){
 // 4 RESOLUTION
 
 else console.log(ma_rotation(args).join(', '));
+
+////////////////////////////////////////////////////////
+//08/11/23//////////////////////////////////////////////
+
+// const args = process.argv.slice(2)
+
+// function ma_rotation(array){
+//     let new_array = []
+//     for (let i=1 ; i<array.length ; i++){
+//         new_array.push(array[i])
+//     }
+//     new_array.push(array[0])
+//     return new_array
+// }
+
+// console.log(ma_rotation(args).join(', '));
