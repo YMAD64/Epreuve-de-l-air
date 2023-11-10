@@ -39,4 +39,23 @@ if (argsError(arg1,arg2)){
 
 else pyr(arg1,arg2)
 
+////////////////////////////////////
+//10/11/23//////////////////////////
+
+// const args = process.argv.slice(2)
+
+//console.log(args);
+// let arg1 = args[0]
+// let arg2 = args[1]
+
+// function pyr(char, number){
+//     let space = ' '
+//     for (let i=0 ; i<number ;i++){
+//         console.log(`${space.repeat(number-i-1)}${char.repeat(i)}${char.repeat(i+1)}`);
+//     }
+// }
+
+
+// pyr(arg1,arg2)
+
 
