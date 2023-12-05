@@ -1,0 +1,19 @@
+{
+  "name": "epreuve-de-l-air",
+  "version": "1.0.0",
+  "description": "dossier air",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YMAD64/Epreuve-de-l-air.git"
+  },
+  "author": "Yann",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/YMAD64/Epreuve-de-l-air/issues"
+  },
+  "homepage": "https://github.com/YMAD64/Epreuve-de-l-air#readme"
+}

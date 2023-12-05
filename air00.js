@@ -19,7 +19,7 @@ const args = process.argv.slice(2).join(' ')
 // return(array);
 // }
 
-function mySplit(string_à_couper, string_séparateur){
+export function mySplit(string_à_couper, string_séparateur){
     let array = ""
     for (let i=0 ; i<string_à_couper.length ; i++){
         if(string_à_couper[i] != string_séparateur){
